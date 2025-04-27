@@ -6,19 +6,25 @@ const TechStack = () => {
     { name: "CSS", image: "https://skillicons.dev/icons?i=css" },
     { name: "JavaScript", image: "https://skillicons.dev/icons?i=js" },
     { name: "Tailwind", image: "https://skillicons.dev/icons?i=tailwind" },
+    { name: "BootStrap", image: "https://skillicons.dev/icons?i=bootstrap" },
     { name: "React", image: "https://skillicons.dev/icons?i=react" },
-    { name: "Node.js", image: "https://skillicons.dev/icons?i=nodejs" },
-    { name: "Django", image: "https://skillicons.dev/icons?i=django" },
     { name: "Python", image: "https://skillicons.dev/icons?i=python" },
+    { name: "Django", image: "https://skillicons.dev/icons?i=django" },
+    { name: "Node.js", image: "https://skillicons.dev/icons?i=nodejs" },
     { name: "AWS", image: "https://skillicons.dev/icons?i=aws" },
     { name: "Docker", image: "https://skillicons.dev/icons?i=docker" },
-    { name: "Kubernetes", image: "https://skillicons.dev/icons?i=kubernetes" },
     { name: "Jenkins", image: "https://skillicons.dev/icons?i=jenkins" },
+    { name: "Kubernetes", image: "https://skillicons.dev/icons?i=kubernetes" },
+    { name: "MySQL", image: "https://skillicons.dev/icons?i=mysql"},
+    { name: "MongoDB", image: "https://skillicons.dev/icons?i=mongodb"},
+    { name: "Linux", image: "https://skillicons.dev/icons?i=linux"},
+    { name: "Selenium", image: "https://skillicons.dev/icons?i=selenium"},
+    { name: "GitHub", image: "https://skillicons.dev/icons?i=github"},
   ];
 
   return (
     <section className="py-20 px-4">
-      <h2 className="text-4xl font-bold text-center mb-16 font-playfair">
+      <h2 className="text-4xl font-bold text-center mb-16 font-playfair hover:text-slate-200">
         Tech Stack
       </h2>
       <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8">

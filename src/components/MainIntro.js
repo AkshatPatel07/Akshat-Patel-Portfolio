@@ -7,21 +7,37 @@ const MainIntro = () => {
         <img
           src="profilephoto.jpg"
           alt="Akshat Patel"
-          className="w-48 h-48 rounded-full border-4 border-white object-cover shadow-xl"
+          className="w-48 h-48 rounded-full border-4 border-white object-cover shadow-xl
+          animate-fade-in-up delay-300
+            transition-transform duration-200 ease-in-out
+            hover:scale-105"
         />
         <div className="text-center md:text-left">
-          <h1 className="text-5xl md:text-6xl font-bold mb-4 font-playfair">
+          <h1
+            className="text-5xl md:text-6xl font-bold mb-4 font-playfair
+              animate-fade-in-up delay-300
+              hover:text-slate-200 "
+          >
             Akshat Patel
           </h1>
-          <p className="text-2xl md:text-3xl text-slate-300 font-poppins mb-6">
+          <p
+            className="text-2xl md:text-3xl text-slate-300 font-poppins mb-6
+              transition-all duration-500 ease-out animate-fade-in-up delay-300
+              hover:translate-y-[-4px] hover:text-slate-100"
+          >
             Software Engineer
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start animate-fade-in-up delay-300">
             <a
               href="https://www.linkedin.com/in/akshatpatel07/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#0A66C2] hover:bg-[#004182] text-white font-poppins px-6 py-3 rounded-lg transition-colors duration-300"
+              className="inline-flex items-center gap-2
+                bg-[#0A66C2] hover:bg-[#004182]
+                text-white font-poppins
+                px-6 py-3 rounded-lg
+                transition-colors duration-300 ease-in-out
+                hover:scale-105"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -42,14 +58,15 @@ const MainIntro = () => {
               onClick={(e) => {
                 setTimeout(() => {
                   const link = document.createElement("a");
-                  link.href = "/resume.pdf";
+                  link.href = "/AKSHAT_PATEL_RESUME.pdf";
                   link.download = "Akshat_Patel_Resume.pdf";
                   document.body.appendChild(link);
                   link.click();
                   document.body.removeChild(link);
                 }, 100);
               }}
-              className="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-poppins px-6 py-3 rounded-lg transition-colors duration-300"
+              className="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-poppins px-6 py-3 rounded-lg transition-colors duration-300 ease-in-out
+                hover:scale-105"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
