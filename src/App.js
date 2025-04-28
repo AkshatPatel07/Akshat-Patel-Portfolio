@@ -3,6 +3,7 @@ import "./App.css";
 import MainIntro from "./components/MainIntro";
 import TechStack from "./components/TechStack";
 import WorkExperience from "./components/WorkExperience";
+import Projects from "./components/Projects";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <MainIntro />
       <TechStack />
       <WorkExperience />
+      <Projects />
     </div>
   );
 }

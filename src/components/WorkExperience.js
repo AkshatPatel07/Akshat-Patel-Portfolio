@@ -46,7 +46,7 @@ const WorkExperience = () => {
 
       <div className="max-w-6xl mx-auto relative animate-fade-in-up delay-300">
         {/* Timeline line */}
-        <div className="absolute left-0 right-0 h-1 bg-slate-700 top-1/2 transform -translate-3" />
+        <div className="fixed left-0 right-0 h-1 bg-slate-700 top-1/3 " />
 
         <div className="relative flex justify-between">
           {experiences.map((exp, index) => (
