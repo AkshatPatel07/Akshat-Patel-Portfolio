@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 
-const ContactMe = () => {
+const ContactMe = ({id}) => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -36,7 +36,7 @@ const ContactMe = () => {
   };
 
   return (
-    <section className="py-20 px-4">
+    <section id={id} className="py-20 px-4">
       <div className="max-w-2xl mx-auto">
         <h2 className="text-4xl font-bold text-center mb-12 font-playfair">
           Contact Me

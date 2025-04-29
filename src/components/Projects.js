@@ -1,6 +1,6 @@
 import React from "react";
 
-const Projects = () => {
+const Projects = ({id}) => {
   const projects = [
     {
       title: "Deep Learning based Video Colorization",
@@ -28,7 +28,7 @@ const Projects = () => {
     },
   ];
   return (
-    <section className="py-20 px-4 ">
+    <section id={id} className="py-20 px-4 ">
       <h2 className="text-4xl font-bold text-center mb-16 font-playfair">
         Projects
       </h2>

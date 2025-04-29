@@ -1,6 +1,6 @@
 import React from "react";
 
-const TechStack = () => {
+const TechStack = ({id}) => {
   const techStack = [
     { name: "HTML", image: "https://skillicons.dev/icons?i=html" },
     { name: "CSS", image: "https://skillicons.dev/icons?i=css" },
@@ -15,15 +15,15 @@ const TechStack = () => {
     { name: "Docker", image: "https://skillicons.dev/icons?i=docker" },
     { name: "Jenkins", image: "https://skillicons.dev/icons?i=jenkins" },
     { name: "Kubernetes", image: "https://skillicons.dev/icons?i=kubernetes" },
-    { name: "MySQL", image: "https://skillicons.dev/icons?i=mysql"},
-    { name: "MongoDB", image: "https://skillicons.dev/icons?i=mongodb"},
-    { name: "Linux", image: "https://skillicons.dev/icons?i=linux"},
-    { name: "Selenium", image: "https://skillicons.dev/icons?i=selenium"},
-    { name: "GitHub", image: "https://skillicons.dev/icons?i=github"},
+    { name: "MySQL", image: "https://skillicons.dev/icons?i=mysql" },
+    { name: "MongoDB", image: "https://skillicons.dev/icons?i=mongodb" },
+    { name: "Linux", image: "https://skillicons.dev/icons?i=linux" },
+    { name: "Selenium", image: "https://skillicons.dev/icons?i=selenium" },
+    { name: "GitHub", image: "https://skillicons.dev/icons?i=github" },
   ];
 
   return (
-    <section className="py-20 px-4">
+    <section id={id} className="py-20 px-4">
       <h2 className="text-4xl font-bold text-center mb-16 font-playfair hover:text-slate-200">
         Tech Stack
       </h2>

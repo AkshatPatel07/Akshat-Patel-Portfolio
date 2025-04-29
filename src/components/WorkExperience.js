@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const WorkExperience = () => {
+const WorkExperience = ({id}) => {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const experiences = [
@@ -39,7 +39,7 @@ const WorkExperience = () => {
   ];
 
   return (
-    <section className="py-20 px-4 ">
+    <section id={id} className="py-20 px-4 ">
       <h2 className="text-4xl font-bold text-center mb-16 font-poppins hover:text-slate-200 animate-fade-in-up delay-300">
         Work Experience
       </h2>

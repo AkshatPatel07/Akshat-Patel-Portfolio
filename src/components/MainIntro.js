@@ -1,8 +1,8 @@
 import React from "react";
 
-const MainIntro = () => {
+const MainIntro = ({id}) => {
   return (
-    <section className="min-h-screen flex items-center justify-center px-4">
+    <section id={id} className="min-h-screen flex items-center justify-center px-4">
       <div className="flex flex-col md:flex-row items-center gap-8">
         <img
           src="profilephoto.jpg"
