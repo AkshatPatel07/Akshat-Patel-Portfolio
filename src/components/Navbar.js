@@ -48,12 +48,12 @@ const Navbar = () => {
               Contact
             </Link>
             <a
-              href="/resume.pdf"
+              href="/AKSHAT_PATEL_RESUME.pdf"
               download="Akshat_Patel_Resume.pdf"
               onClick={(e) => {
                 setTimeout(() => {
                   const link = document.createElement("a");
-                  link.href = "/resume.pdf";
+                  link.href = "/AKSHAT_PATEL_RESUME.pdf";
                   link.download = "Akshat_Patel_Resume.pdf";
                   document.body.appendChild(link);
                   link.click();
